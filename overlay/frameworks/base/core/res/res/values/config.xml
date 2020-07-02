@@ -511,14 +511,9 @@
     For example if you want to change performance profile from balanced to performance (in my case performance profile is persist.spectrum.profile=1 )
     then set <string name="config_performance_profile" translatable="false">1</string>, override these config via device tree.
     -->
-    <string name="config_balanced_profile" translatable="false">0</string>
-    <string name="config_performance_profile" translatable="false">1</string>
-    <string name="config_powersave_profile" translatable="false">2</string>
-    <string name="config_screen_off_profile" translatable="false">2</string>
+    <string name="config_defaultAutofillService" translatable="false">com.google.android.gms/.autofill.service.AutofillService</string>
 
-    <!-- IWLAN -->
-    <string name="config_wlan_data_service_package" translatable="false">vendor.qti.iwlan</string>
-    <string name="config_wlan_network_service_package" translatable="false">vendor.qti.iwlan</string>
-    <string name="config_qualified_networks_service_package" translatable="false">vendor.qti.iwlan</string>
+    <!-- Enable live display -->
+    <bool name="config_liveDisplayAvailable">true</bool>
 
 </resources>
